@@ -33,5 +33,12 @@ array= [5 ,4 ,-1, 7, 8]
 max_ar,result_max_sub=max_subarray(array)
 print(f"{max_ar} ({result_max_sub})")
 
+
+
+
 min_ar,result_min_sub=smallest_sum(array)
 print(f"{min_ar} ({result_min_sub})")
+
+#https://www.youtube.com/watch?v=3GD-3UZGsVI
+#https://www.youtube.com/watch?v=5WZl3MMT0Eg
+#https://www.youtube.com/watch?v=ohHWQf1HDfU&t=295s
