@@ -45,8 +45,8 @@ def mode(number) :
             mode = i    # Store  The Number That Have The Max Count Of Repated
     return mode   # Return Mode
     
-try :
-    lst = [float(i) for i in input().split()]
+try :                                # To Handle Exceptions
+    lst = [float(i) for i in input().split()]   # Take Input From User And Convert Number To Float
     print(f"mean: {mean(lst):0.2f}") # Called Function mean To calculate Mean
     print(f"median: {median(lst)}")  # Called Function median To calculate Median
     print(f"mode: {mode(lst)}")      # Called Function Mode To Calculate Mode
@@ -54,4 +54,4 @@ except ValueError :                  # Exception Value Not Number
     print("Please Enter Valid Number")
 except KeyboardInterrupt :           # Exception Exit Using Keyboard 
     print("Good By !")
-    exit()
+    exit()                           # Exit From Program
