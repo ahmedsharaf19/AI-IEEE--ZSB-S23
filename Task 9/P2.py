@@ -6,12 +6,7 @@ class Solution(object):
         """
         # Conver String to alpha
         s = list(filter(lambda x : x.isalnum() ,s.strip().lower()))
-        # flag True if s is palindrom else false
-        flag =  True
-        for i in range(len(s)) :
-            # if end element not equal first element "Not Palindrom"
-            if s[i] != s[-(i+1)] :
-                flag = False
-                break
+        # Flag Check Palindrome Or Not
+        flag = True if s[:] == s[::-1] else False
         # return flag
         return flag
